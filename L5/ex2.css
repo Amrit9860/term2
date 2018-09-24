@@ -1,0 +1,40 @@
+
+/*body{
+display: flex;
+flex-direction: column;
+}
+*/
+header{
+	background-color: green;
+	color: white;
+	padding:2%;
+}
+section{
+display: flex;
+}
+.sec1{
+	/*float: left;*/
+background: yellow;
+width: 20%;
+}
+.sec2{
+	/*float: right;*/
+	background-color: aqua;
+	width: 60%;
+}
+.sec3{
+	background: lightgreen;
+width: 20%;
+text-align: center;
+}
+footer{
+	background-color: orange;
+	padding: 1%;
+}
+
+@media screen and (max-width: 799px) {
+  section{flex-direction: column;}
+  .sec1, .sec2,.sec3{
+  	width: 100%;
+  }
+}
